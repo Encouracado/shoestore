@@ -1,0 +1,67 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 1rem;
+
+    >img{
+        width: 17rem;
+        height: 17rem;
+    }
+    >strong{
+        font-size:1.4rem;
+        color: var(--gray-1000);
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+.ProductColors{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+    input:hover{
+        cursor:pointer;
+    }
+    input:active{
+        border: 1px solid var(--gray-1000);
+    }
+    .Black{
+        width: 15px;
+        height: 15px;
+     
+        border-radius: 50%;
+
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+     
+        background-color: #000;
+     }
+     .Caramel{
+        width: 15px;
+        height: 15px;
+     
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+     
+        background-color: rgb(233, 116, 48);
+     }
+
+     .Browm{
+        width: 15px;
+        height: 15px;
+     
+        border-radius: 50%;
+        margin-bottom: 2rem;
+     
+        background: #753b01;
+     }
+    
+
+
+}
+

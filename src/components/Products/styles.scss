@@ -1,0 +1,20 @@
+
+.titleGrid{
+       
+       margin-left: 35rem;
+
+       letter-spacing: 0.3rem;
+       color: var(--gray-1000);
+   }
+
+
+.ProductsGrid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
