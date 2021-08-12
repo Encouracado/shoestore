@@ -24,6 +24,21 @@
         }
     }
 
+    @media(max-width : 720px){
+        img{
+           display:none;
+        }
+        div:last-child{
+            display: none;
+        }
+        div{
+            display: flex;
+            align-items: center;
+
+            margin-right: 14rem;
+        }
+    }
+
 }
 .Icon{
     display: flex;

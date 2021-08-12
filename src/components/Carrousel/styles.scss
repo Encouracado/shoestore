@@ -34,8 +34,30 @@
         margin-bottom: 12rem
 
     }
+
+    @media(max-width: 720px){
+        
+        >strong{
+            font-size:3rem;
+        }
+        >p{
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        >button{
+            font-size: 10px;
+            margin-bottom: 4rem;
+        }
+    }
 }
 
 .CarrouselContainer{
     margin-bottom: 3rem;
+
+    @media(max-width: 720px){
+        img{
+            height:30rem;
+        }
+
+    }
 }
