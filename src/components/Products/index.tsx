@@ -12,8 +12,8 @@ import "./styles.scss";
 
 export const Products: React.FC = () => {
   return (
-    <>
-      <strong className="titleGrid">Collection</strong>
+    <div className="ProductsContainer">
+      <strong>Collection</strong>
       <div className="ProductsGrid">
         <Card image={sapatoFeminino} name={"sapato masculino"} value={150} />
         <Card image={carteira} name={"sapato masculino"} value={150} />
@@ -22,6 +22,6 @@ export const Products: React.FC = () => {
         <Card image={Cinto} name={"sapato masculino"} value={150} />
         <Card image={carteira2} name={"sapato masculino"} value={150} />
       </div>
-    </>
+    </div>
   );
 };
