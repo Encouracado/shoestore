@@ -1,20 +1,30 @@
-.titleGridMobile{
-    margin-left: 13rem;
-
-    letter-spacing: 0.3rem;
-    color: var(--gray-1000);
-    font-size: 2rem;
-}
-
-
 .CarrouselContainerMobile{
     display:none;
 
     @media(max-width: 720px){
-        display:inline;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
 
     }
 }
+
+
+.titleGridMobile{
+
+
+    letter-spacing: 0.3rem;
+    color: var(--gray-1000);
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+}
+
+.CarrouselSize{
+    width: 100%;
+}
+
+
 .ProductColorsMobile{
     display:flex;
     justify-content: space-between;

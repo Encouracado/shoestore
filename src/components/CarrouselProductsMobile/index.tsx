@@ -15,106 +15,108 @@ export const CarrouselProductsMobile: React.FC = () => {
   return (
     <div className="CarrouselContainerMobile">
       <strong className="titleGridMobile">Collection</strong>
-      <Carousel autoPlay infiniteLoop showThumbs={false}>
-        <div className="CarrouselContainer">
-          <img src={sapatoFeminino} alt="breto" />
-          <div id="LegendForCarrouselMobile">
-            <div className="ProductColorsMobile">
-              <div className="Black" />
+      <div className="CarrouselSize">
+        <Carousel autoPlay infiniteLoop showThumbs={false}>
+          <div className="CarrouselContainer">
+            <img src={sapatoFeminino} alt="breto" />
+            <div id="LegendForCarrouselMobile">
+              <div className="ProductColorsMobile">
+                <div className="Black" />
 
-              <div className="Caramel" />
+                <div className="Caramel" />
 
-              <div className="Browm" />
+                <div className="Browm" />
+              </div>
+              <strong>SAPATO</strong>
+              <p>R$ 150</p>
             </div>
-            <strong>SAPATO</strong>
-            <p>R$ 150</p>
           </div>
-        </div>
-        <div className="ImageCarrousel">
-          <img src={carteira} alt="breto" />
-          <div id="LegendForCarrouselMobile">
-            <div className="ProductColorsMobile">
-              <div className="Black" />
+          <div className="ImageCarrousel">
+            <img src={carteira} alt="breto" />
+            <div id="LegendForCarrouselMobile">
+              <div className="ProductColorsMobile">
+                <div className="Black" />
 
-              <div className="Caramel" />
+                <div className="Caramel" />
 
-              <div className="Browm" />
+                <div className="Browm" />
+              </div>
+              <strong>CARTEIRA</strong>
+              <p>R$ 150</p>
             </div>
-            <strong>CARTEIRA</strong>
-            <p>R$ 150</p>
           </div>
-        </div>
-        <div className="ImageCarrousel">
-          <img src={sapatoFeminino2} alt="breto" />
-          <div id="LegendForCarrouselMobile">
-            <div className="ProductColorsMobile">
-              <div className="Black" />
+          <div className="ImageCarrousel">
+            <img src={sapatoFeminino2} alt="breto" />
+            <div id="LegendForCarrouselMobile">
+              <div className="ProductColorsMobile">
+                <div className="Black" />
 
-              <div className="Caramel" />
+                <div className="Caramel" />
 
-              <div className="Browm" />
+                <div className="Browm" />
+              </div>
+              <strong>SAPATO</strong>
+              <p>R$ 150</p>
             </div>
-            <strong>SAPATO</strong>
-            <p>R$ 150</p>
           </div>
-        </div>
-        <div className="ImageCarrousel">
-          <img src={sapatoMasculino} alt="breto" />
-          <div id="LegendForCarrouselMobile">
-            <div className="ProductColorsMobile">
-              <div className="Black" />
+          <div className="ImageCarrousel">
+            <img src={sapatoMasculino} alt="breto" />
+            <div id="LegendForCarrouselMobile">
+              <div className="ProductColorsMobile">
+                <div className="Black" />
 
-              <div className="Caramel" />
+                <div className="Caramel" />
 
-              <div className="Browm" />
+                <div className="Browm" />
+              </div>
+              <strong>SAPATO</strong>
+              <p>R$ 150</p>
             </div>
-            <strong>SAPATO</strong>
-            <p>R$ 150</p>
           </div>
-        </div>
-        <div className="ImageCarrousel">
-          <img src={Cinto} alt="breto" />
-          <div id="LegendForCarrouselMobile">
-            <div className="ProductColorsMobile">
-              <div className="Black" />
+          <div className="ImageCarrousel">
+            <img src={Cinto} alt="breto" />
+            <div id="LegendForCarrouselMobile">
+              <div className="ProductColorsMobile">
+                <div className="Black" />
 
-              <div className="Caramel" />
+                <div className="Caramel" />
 
-              <div className="Browm" />
+                <div className="Browm" />
+              </div>
+              <strong>CINTRO</strong>
+              <p>R$ 150</p>
             </div>
-            <strong>CINTRO</strong>
-            <p>R$ 150</p>
           </div>
-        </div>
-        <div className="ImageCarrousel">
-          <img src={sapatoFeminino2} alt="breto" />
-          <div id="LegendForCarrouselMobile">
-            <div className="ProductColorsMobile">
-              <div className="Black" />
+          <div className="ImageCarrousel">
+            <img src={sapatoFeminino2} alt="breto" />
+            <div id="LegendForCarrouselMobile">
+              <div className="ProductColorsMobile">
+                <div className="Black" />
 
-              <div className="Caramel" />
+                <div className="Caramel" />
 
-              <div className="Browm" />
+                <div className="Browm" />
+              </div>
+              <strong>SAPATO</strong>
+              <p>R$ 150</p>
             </div>
-            <strong>SAPATO</strong>
-            <p>R$ 150</p>
           </div>
-        </div>
-        <div className="ImageCarrousel">
-          <img src={carteira2} alt="breto" />
-          <div id="LegendForCarrouselMobile">
-            <div className="ProductColorsMobile">
-              <div className="Black" />
+          <div className="ImageCarrousel">
+            <img src={carteira2} alt="breto" />
+            <div id="LegendForCarrouselMobile">
+              <div className="ProductColorsMobile">
+                <div className="Black" />
 
-              <div className="Caramel" />
+                <div className="Caramel" />
 
-              <div className="Browm" />
+                <div className="Browm" />
+              </div>
+              <strong>CARTEIRA</strong>
+              <p>R$ 150</p>
             </div>
-            <strong>CARTEIRA</strong>
-            <p>R$ 150</p>
           </div>
-        </div>
-      </Carousel>
+        </Carousel>
+      </div>
     </div>
   );
 };
