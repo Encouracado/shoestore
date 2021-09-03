@@ -4,16 +4,16 @@
 
 <h2 align="center">Tecnologias<h2>
 
-* React
-* Typescript
-* SASS
-* Axios
-* React Responsive Carrousel
+- React
+- Typescript
+- SASS
+- Axios
+- React Responsive Carrousel
   
   <h3 align="center">Features</h3>
 
-[ ] Formulário de cadastro de usuário
-[x] Responsividade mobile
+- [ ] Formulário de cadastro de usuário
+- [x] Responsividade mobile
   
   
  
