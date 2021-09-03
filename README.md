@@ -10,7 +10,7 @@
 - Axios
 - React Responsive Carrousel
   
-  <h3 align="center">Features</h3>
+ <h3 align="center">Features</h3>
 
 - [ ] Formulário de cadastro de usuário
 - [x] Responsividade mobile
