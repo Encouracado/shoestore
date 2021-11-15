@@ -1,4 +1,4 @@
-<h1 align="center">Bretto Store</h1>
+<h1 align="center">Bretto Store.</h1>
 
 <p>Projeto feito com o intuito de simular uma loja de artigos de moda tanto masculino quanto feminino</p>
 
